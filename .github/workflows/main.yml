@@ -1,0 +1,9 @@
+name: Build and Test Python App
+
+    on: [push] # This means the pipeline runs every time you push code
+
+    jobs:
+      build-and-test:
+        runs-on: ubuntu-latest
+        steps:
+          # We will add our steps here
